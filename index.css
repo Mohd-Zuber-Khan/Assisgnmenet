@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    background-image: url(banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 70%;
+    height: 70%;
+}
+.logo{
+    padding: 1rem;
+}
+ul{
+    display: flex;
+}
+ul a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+.book a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    text-transform: capitalize;
+    background-color: red;
+    padding: 0.5rem;
+    margin-right: 6rem;
+}
+.box{
+    color: #fff;
+    border: 8px solid #fff;
+    border-radius: 10px;
+    background-color: red;
+    width: 650px;
+    height: 55vh;
+    padding: 1rem;
+    text-transform: capitalize;
+    text-align:center;
+}
+.box a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0.4rem 1.5rem;
+}
+.box a, .box h1, .box p{
+    margin: 2rem;
+}
+.box h1{
+    font-size: 60px;
+}
+main{
+    background-image: url(background1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 2rem;
+}
+main h1{
+    margin-top: 4rem;
+}
+.text{
+    margin-top: 2rem;
+}
+.dish{
+    margin-top: 0.5rem;
+    color: burlywood;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.animations{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+.animations img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    animation: photo 2s infinite linear;
+}
+@keyframes photo{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.descriptions{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin-top: 4rem;
+}
+.item{
+    width: 45%;
+    padding: 2rem;
+    margin: 1rem;
+    border-bottom: 1px solid;
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.booktable{
+    background-image: url(dosa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.table{
+    width: 500px;
+    text-align: center;
+}
+.table h1, .table p, button{
+    color: #fff;
+}
+.table h1, .table p, input, button{
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+input{
+    width: 400px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: brown;
+    border: 1px solid #fff;
+    padding: 0.5rem 2rem;
+}
+.foods{
+    margin-top: 4rem;
+}
+.food{
+    text-align: center;
+}
+.food h1, .food p{
+    margin-bottom: 2rem;
+}
+.food p{
+    padding: 0 18rem;
+}
+
+.gallerys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallerys img{
+    width: 337px;
+    height: 337px;
+}
+.blogs{
+    margin-top: 3rem;
+}
+.ourblog{
+    text-align: center;
+    background-color: rgb(245, 209, 215);
+}
+.ourblog h1{
+    font-size: 40px;
+}
+.ourblog p{
+    margin-top: 2rem;
+    padding: 0 12rem;
+}
+.blog-image{
+    display: flex;
+    margin-top: 4rem;
+}
+.bgimage{
+    padding: 0 2rem;
+    text-align: justify;
+}
+.bgimage img{
+    width: 380px;
+    height: 220px;
+    border-radius: 10px;
+}
+.bgimage h4, .bgimage p{
+    margin-top: 1rem;
+}
+.enjoybox{
+    background-image: url(1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    margin-top: 4rem;
+}
+.enjoy{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 70vh;
+    padding: 2rem;
+    border-radius: 20px ;
+    margin-left: 4rem;
+}
+.enjoy h2{
+    font-size: 38px;
+    text-align: center;
+    font-weight: 400;
+    color: burlywood;
+}
+.enjoy h5{
+    margin: 2rem 0;
+    font-size: 26px;
+    font-weight: 400;
+}
+.enjoy a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: orange;
+    margin-top: 3rem;
+    padding: 0.5rem;
+    width: 30%;
+}
+.discover{
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+}
+.meals{
+    background-color: bisque;
+    width: 45%;
+    padding: 4rem;
+}
+.logomeal{
+    text-align: center;
+}
+.logomeal img{
+    width: 20%;
+    height: 80px;
+}
+.meals h3{
+    text-align: center;
+    font-weight: 400;
+}
+.meals h1{
+    text-align: center;
+    padding: 0 4rem;
+    font-size: 44px;
+}
+.meals h3, .meals h1, .meals p{
+    margin-top: 1rem;
+}
+.meals a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: orange;
+    margin-top: 3rem !important;
+    padding: 0.8rem;
+    width: 30%;
+    text-align: center;
+    border-radius: 20px;
+    margin:auto;
+}
